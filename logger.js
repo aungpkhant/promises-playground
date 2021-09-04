@@ -6,6 +6,5 @@ export default {
   log: (message) => console.log(message),
   error: (message) => console.log(message.red),
   warn: (message) => console.log(message.yellow),
-  info: (message) => console.log(message.green),
-  debug: (message) => console.log(message.blue),
+  info: (message) => console.log(message.blue),
 };
